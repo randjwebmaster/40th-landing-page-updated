@@ -43,14 +43,6 @@ function rj_40th_enqueue_assets() {
 
 	// Custom interactions only — the era-scroll rail and the tagline write-in.
 	wp_enqueue_script(
-		'rj-40th-main',
-		get_template_directory_uri() . '/assets/js/main.js',
-		array( 'jquery' ),
-		wp_get_theme()->get( 'Version' ),
-		true
-	);
-
-	wp_enqueue_script(
 		'rj-40th-tagline',
 		get_template_directory_uri() . '/assets/js/tagline.js',
 		array(),

@@ -15,15 +15,15 @@ $img_dir = esc_url( get_template_directory_uri() . '/assets/images' );
 	<div class="wp-block-group hero-copy">
 
 		<!-- wp:paragraph {"className":"eyebrow"} -->
-		<p class="eyebrow"><span class="dot">●</span> 1986&ndash;2026</p>
+		<p class="eyebrow"><span class="dot">●</span> 1986 &mdash; 2026</p>
 		<!-- /wp:paragraph -->
 
 		<!-- wp:heading {"level":1,"className":"hero-heading"} -->
-		<h1 class="wp-block-heading hero-heading">Forty years of communications built to last.</h1>
+		<h1 class="wp-block-heading hero-heading">Forty <em>years</em> of making a difference.</h1>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph {"className":"lede"} -->
-		<p class="lede">Since 1986, R&amp;J Strategic Communications has helped clients say the right thing at the right time, through six eras of change and one steady commitment to the people we serve.</p>
+		<p class="lede">Founded April 6, 1986 in Livingston, NJ &mdash; four decades of growth and reinvention through every major shift in communications. <em>One promise kept.</em></p>
 		<!-- /wp:paragraph -->
 
 	</div>
@@ -421,7 +421,7 @@ $img_dir = esc_url( get_template_directory_uri() . '/assets/images' );
 			<!-- /wp:button -->
 
 			<!-- wp:button {"className":"btn-ghost btn-arrow"} -->
-			<div class="wp-block-button btn-ghost btn-arrow"><a class="wp-block-button__link wp-element-button" href="/">See the work</a></div>
+			<div class="wp-block-button btn-ghost btn-arrow"><a class="wp-block-button__link wp-element-button" href="https://www.randjsc.com">See the work</a></div>
 			<!-- /wp:button -->
 		</div>
 		<!-- /wp:buttons -->
